@@ -143,17 +143,6 @@ Les archives générées utilisent un format propriétaire structuré comme suit
 
 ---
 
-## 🎓 Contexte académique
-
-Ce projet a été réalisé dans le cadre du cours de **Technique de Compression de Données** à l'université.  
-Il met en pratique les algorithmes suivants vus en cours :
-- Section **2.1.2.2** — RLE (Run-Length Encoding)
-- Section **2.1.2.4** — Codage Arithmétique
-- Section **2.1.2.5a** — LZ77 (Lempel-Ziv 1977)
-- Section **2.1.2.5c** — LZW (Lempel-Ziv-Welch)
-
----
-
 ## 👤 Auteur
 
 **Rochel-10**  
