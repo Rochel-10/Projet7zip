@@ -64,7 +64,7 @@ Il implémente plusieurs algorithmes de compression sans perte vus en cours et g
 ### ℹ️ À propos
 > Présentation du logiciel et des 4 méthodes de compression implémentées.
 
-![A propos](screenshots/A_propos.png)
+![A_propos](screenshots/A_propos.png)
 
 ---
 
