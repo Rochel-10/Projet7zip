@@ -94,6 +94,15 @@ python build.py
 
 L'exécutable sera généré dans le dossier `dist/`.
 
+### Voir le logiciel exécutable (.exe) dans le dossier du projet sur github repo Projet7zip
+
+Le logiciel exécutable est dans le dossier du projet `dist/`.
+
+Ou
+
+Il existe un Version MVP du logiciel V1.0 (.exe) près a etre telecharger dans releases repo Github Projet7zip.
+Logiciel executable sur Windows.
+
 ---
 
 ## 📁 Structure du projet
