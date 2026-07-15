@@ -164,8 +164,9 @@ Des fichiers de test sont disponibles dans ce repository :
 2. Ouvrez et telecharger un fichier quelconque dans le dossier `fichier_decompressers/` dans repo
 3. Tester dans le logiciel et compressez pour avoir un `fichier.p7z/`
 3. Ouvrez et telecharger un fichier `.p7z` dans dossier `fichier_compressers/`
-4. Tester et décompressez-le pour avoir un `fichiers original`
-5. Vérifiez que le fichier est bien restauré
+4. Tester le dans le logiciel et décompressez-le pour avoir un `fichiers original`
+5. Et ainsi de suite pour tester autres fichiers
+6. Vérifiez que le fichier est bien restauré
 
 ## 👤 Auteur
 
