@@ -168,6 +168,33 @@ Des fichiers de test sont disponibles dans ce repository :
 5. Et ainsi de suite pour tester autres fichiers
 6. Vérifiez que le fichier est bien restauré
 
+## 📊 Performances des algorithmes selon le type de fichier
+
+| Algorithme |  **Excellent** |  **Très bon** |  **Bon** |
+|------------|----------------------|--------------------|--------------|
+| **RLE (Run-Length Encoding)** Très Rapide | Images **BMP**, **PBM**, **RAW** monochromes ou avec peu de couleurs, images noir et blanc, fichiers contenant de longues suites de caractères ou de valeurs identiques (AAAAAA, 000000...) | Données binaires comportant de longues séries de zéros ou de valeurs identiques | Fichiers texte contenant de nombreuses répétitions consécutives |
+| **LZ77 (Lempel-Ziv 77)** Rapide | Fichiers texte (**TXT**), **CSV**, **JSON**, **XML**, **HTML**, journaux (**LOG**), bases de données exportées (**SQL**) | Code source (**PY**, **C**, **CPP**, **JAVA**, **JS**, **HTML**, **CSS**), images **BMP** non compressées | Données binaires présentant des motifs ou structures répétitives |
+| **LZW (Lempel-Ziv-Welch)** Rapide | Images **BMP**, **TIFF**, images à palette réduite (logos, icônes, dessins simples) | Fichiers texte (**TXT**), **CSV**, **JSON**, **XML**, code source (**PY**, **C**, **JAVA**, **HTML**) | Données contenant des séquences répétitives de longueur variable |
+| **Codage arithmétique (Arithmetic Coding)** Moins Rapide | Fichiers texte (**TXT**), **XML**, **JSON**, **HTML** | Code source (**PY**, **C**, **CPP**, **JAVA**), **CSV**, images **BMP** non compressées, données scientifiques | Audio **WAV (PCM)** non compressé et autres données dont les symboles présentent une distribution statistique favorable |
+
+> -  **Excellent** : très fort taux de compression attendu.
+> -  **Très bon** : bonne réduction de taille dans la majorité des cas.
+> -  **Bon** : réduction possible, mais généralement moins importante.
+
+## 🔭 Perspectives d'amélioration
+
+Les prochaines versions du logiciel pourront intégrer la prise en charge de formats d'archives universels afin d'améliorer la compatibilité avec les principaux outils de compression et de décompression.
+
+### Formats de décompression prévus
+
+| Format | Bibliothèque Python | Description |
+|---------|---------------------|-------------|
+| **.zip** | `zipfile` (bibliothèque standard) | Décompression des archives ZIP, largement utilisées sur Windows et Linux. |
+| **.tar / .tar.gz / .tgz** | `tarfile` (bibliothèque standard) | Prise en charge des archives TAR et de leurs variantes compressées sous Linux et Unix. |
+| **.gz** | `gzip` (bibliothèque standard) | Décompression des fichiers compressés au format GZIP. |
+| **.7z** | `py7zr` | Support des archives 7-Zip offrant un excellent taux de compression. |
+| **.rar** | `rarfile` | Décompression des archives RAR créées avec WinRAR ou d'autres outils compatibles. |
+
 ## 👤 Auteur
 
 **Rochel-10**  
