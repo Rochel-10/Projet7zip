@@ -163,7 +163,7 @@ Des fichiers de test sont disponibles dans ce repository :
 1. Téléchargez et installer `Projet7Zip.exe`
 2. Ouvrez et telecharger un fichier quelconque dans le dossier `fichier_decompressers/` dans repo
 3. Tester dans le logiciel et compressez pour avoir un `fichier.p7z/`
-3. Ouvrez un fichier `.p7z` dans dossier `fichier_compressers/`
+3. Ouvrez et telecharger un fichier `.p7z` dans dossier `fichier_compressers/`
 4. Tester et décompressez-le pour avoir un `fichiers original`
 5. Vérifiez que le fichier est bien restauré
 
