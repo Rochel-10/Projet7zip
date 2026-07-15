@@ -152,6 +152,21 @@ Les archives générées utilisent un format propriétaire structuré comme suit
 
 ---
 
+## 🧪 Fichiers de test
+
+Des fichiers de test sont disponibles dans ce repository :
+
+📁 **fichiers_compressers/** — Fichiers compressés au format `.p7z`
+📁 **fichiers_decompressers/** — Fichiers décompressés (fichiers originaux restaurés)
+
+### Comment tester
+1. Téléchargez et installer `Projet7Zip.exe`
+2. Ouvrez et telecharger un fichier quelconque dans le dossier `fichier_decompressers/` dans repo
+3. Tester dans le logiciel et compressez pour avoir un `fichier.p7z/`
+3. Ouvrez un fichier `.p7z` dans dossier `fichier_compressers/`
+4. Tester et décompressez-le pour avoir un `fichiers original`
+5. Vérifiez que le fichier est bien restauré
+
 ## 👤 Auteur
 
 **Rochel-10**  
